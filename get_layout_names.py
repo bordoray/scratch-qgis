@@ -1,5 +1,5 @@
 # get layouts list of current QGIS project
-project = QgsProject.instance()                                  
+project = QgsProject.instance()
 layout_manager = project.layoutManager()
 layouts = layout_manager.layouts()
 
